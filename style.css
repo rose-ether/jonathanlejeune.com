@@ -247,8 +247,8 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 40px;
 }
-
 .featured-image {
   max-width: 82vw;
   max-height: 78vh;
@@ -304,4 +304,24 @@ h2 {
 
 p {
   font-size: 13px;
+}
+.release p {
+  margin-top: 8px;
+  font-size: 12px;
+  opacity: 0.85;
+}  
+
+.release {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.featured-image {
+  max-width: 75vw;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: none;
 }
