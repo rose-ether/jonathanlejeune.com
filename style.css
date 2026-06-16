@@ -37,10 +37,11 @@ main {
 }
 
 .featured-image {
-  max-width: 85vw;
-  max-height: 75vh;
+  max-width: 82vw;
+  max-height: 78vh;
   width: auto;
   height: auto;
+  object-fit: contain;
   display: block;
 }
 
