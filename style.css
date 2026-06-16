@@ -73,3 +73,7 @@ nav a {
 section {
   padding: 40px 20px;
 }
+.grid div {
+  text-align: left;
+  font-size: 13px;
+}
