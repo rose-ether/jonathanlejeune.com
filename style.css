@@ -79,3 +79,12 @@ main {
 .live-list {
   padding-left: 20px;
 }
+
+.release {
+  text-align: left;
+}
+
+.release p {
+  font-size: 13px;
+  margin-top: 8px;
+}
