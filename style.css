@@ -98,3 +98,39 @@ h2 {
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 40px;
+  background: white;
+  color: black;
+  font-weight: 300;
+}
+
+nav {
+  margin-bottom: 60px;
+  font-size: 13px;
+}
+
+nav a {
+  margin-right: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.release img,
+.gallery img {
+  width: 100%;
+  display: block;
+}
