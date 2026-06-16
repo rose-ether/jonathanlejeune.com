@@ -34,15 +34,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  overflow: hidden;
 }
+
 .featured-image {
-  max-width: 82vw;
-  max-height: 78vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  max-width: 80vw;
+  max-height: 80vh;
   display: block;
 }
 
