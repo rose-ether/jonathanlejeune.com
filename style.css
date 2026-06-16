@@ -30,7 +30,9 @@ main {
 
 .featured-image {
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
+  max-height: 70vh;
+  object-fit: contain;
   display: block;
 }
 
