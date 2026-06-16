@@ -28,7 +28,10 @@ main {
   position: relative;
 }
 
-
+body.home-page {
+  overflow: hidden;
+  height: 100vh;
+}
 .home {
   height: 100vh;
   display: flex;
