@@ -28,12 +28,17 @@ main {
   position: relative;
 }
 
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
 .featured-image {
-  width: 100%;
-  max-width: 900px;
-  max-height: 70vh;
+  max-width: 80vw;
+  max-height: 75vh;
   object-fit: contain;
-  display: block;
 }
 
 .home-title {
