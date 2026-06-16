@@ -29,16 +29,19 @@ main {
 }
 
 .home {
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  position: relative;
 }
 
 .featured-image {
-  max-width: 80vw;
+  max-width: 85vw;
   max-height: 75vh;
-  object-fit: contain;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
 .home-title {
