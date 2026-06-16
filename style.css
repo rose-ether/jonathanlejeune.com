@@ -88,3 +88,10 @@ main {
   font-size: 13px;
   margin-top: 8px;
 }
+h2 {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
