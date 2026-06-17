@@ -146,19 +146,27 @@ h2 {
 }
 .project-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, 160px);
   gap: 25px;
   align-items: start;
 }
 
-.release img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  max-width: 100%;
+/* bloc release stable */
+.release {
+  width: 160px;
 }
 
-.release {
-  width: 100%;
+/* image parfaitement uniforme */
+.release img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+/* texte propre sous image */
+.release p {
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: left;
 }
