@@ -37,3 +37,10 @@ nav a {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.about-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+}
