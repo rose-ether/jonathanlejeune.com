@@ -44,3 +44,19 @@ nav a {
   display: block;
   margin-bottom: 40px;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+  gap: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.release p {
+  margin-top: 8px;
+  font-size: 12px;
+}
