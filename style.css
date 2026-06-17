@@ -71,6 +71,79 @@ h2 {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
 }
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: white;
+  color: black;
+  margin: 40px;
+}
+
+nav {
+  margin-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 150px);
+}
+
+.featured-image {
+  max-width: 80vw;
+  max-height: 75vh;
+  display: block;
+}
+
+.home-title {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.about-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+  gap: 30px;
+}
+
+
+.release p {
+  margin-top: 8px;
+  font-size: 12px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+  gap: 30px;
+}
+h2 {
+  margin-top: 80px;
+  margin-bottom: 25px;
+  font-size: 12px;
+
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
 .project-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -85,7 +158,6 @@ h2 {
   object-fit: cover;
   max-width: 100%;
 }
-
 
 .release {
   width: 100%;
