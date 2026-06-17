@@ -60,3 +60,8 @@ nav a {
   margin-top: 8px;
   font-size: 12px;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+  gap: 30px;
+}
