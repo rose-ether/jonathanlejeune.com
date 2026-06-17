@@ -25,31 +25,33 @@ main {
 }
 
 .home {
-  position: relative;
-}
-
-
-.home {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: calc(100vh - 120px);
 }
 
 .featured-image {
-  max-width: 80vw;
-  max-height: 80vh;
   display: block;
+  max-width: 75vw;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
 }
 
 .home-title {
   position: fixed;
   right: 40px;
   bottom: 40px;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+
+
+
+
 
 .about-image {
   width: 70%;
@@ -247,15 +249,7 @@ nav a:hover {
 } 
 
 
-.home-title {
-  position: fixed;
-  right: 42px;
-  bottom: 42px;
-  font-size: 12px;
-  letter-spacing: 2.2px;
-  text-transform: uppercase;
-  opacity: 0.85;
-}
+
 
 
 .gallery {
@@ -306,11 +300,4 @@ p {
   gap: 6px;
 }
 
-.featured-image {
-  max-width: 75vw;
-  max-height: 75vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  box-shadow: none;
-}
+
