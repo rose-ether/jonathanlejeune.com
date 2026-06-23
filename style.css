@@ -180,13 +180,13 @@ h2 {
 }
 
 .archive-list img {
-  width: 300px;
+  width: 400px;
   max-width: 100%;
   height: auto;
   display: block;
 }
 .archive-list img {
-  width: 300px !important;
+  width: 400px !important;
   height: auto !important;
 }
 
@@ -198,7 +198,7 @@ h2 {
 }
 
 .archive-gallery img {
-  width: 350px;
+  width: 500px;
   max-width: 100%;
   height: auto;
   display: block;
