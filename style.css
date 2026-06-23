@@ -185,3 +185,7 @@ h2 {
   height: auto;
   display: block;
 }
+.archive-list img {
+  width: 200px !important;
+  height: auto !important;
+}
