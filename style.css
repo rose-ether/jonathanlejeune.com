@@ -172,12 +172,16 @@ h2 {
 }
 
 
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
 .archive-list img {
-  width: 100%;
+  width: 300px;
+  max-width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 60px;
-}
-.archive-list {
-  max-width: 400px;
 }
