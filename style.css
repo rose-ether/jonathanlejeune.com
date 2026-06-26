@@ -235,3 +235,27 @@ h2 {
   }
 
 }
+@media screen and (max-width: 768px) {
+
+  body {
+    margin: 20px;
+  }
+
+  .home {
+    min-height: calc(100vh - 140px);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured-image {
+    max-width: 100%;
+    max-height: 65vh;
+    margin: auto;
+  }
+
+  .home-title {
+    right: 20px;
+    bottom: 20px;
+  }
+
+}
