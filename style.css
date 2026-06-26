@@ -203,3 +203,18 @@ h2 {
   height: auto;
   display: block;
 }
+
+@media screen and (max-width: 768px) {
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  nav a {
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+}
