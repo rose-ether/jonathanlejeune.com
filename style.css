@@ -20,17 +20,21 @@ nav a {
 
 /* Home */
 
+/* Home */
+
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: calc(100vh - 120px);
 }
 
 .featured-image {
   display: block;
   max-width: 80vw;
   max-height: 75vh;
+  width: auto;
+  height: auto;
   margin: 0 auto;
 }
 
