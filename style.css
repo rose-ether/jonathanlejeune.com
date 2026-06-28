@@ -5,78 +5,7 @@ body {
   margin: 40px;
 }
 
-nav {
-  margin-bottom: 40px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  margin-right: 20px;
-  font-size: 14px;
-}
-
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 150px);
-}
-
-.featured-image {
-  max-width: 80vw;
-  max-height: 75vh;
-  display: block;
-}
-
-.home-title {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-.about-image {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  display: block;
-  margin-bottom: 40px;
-}
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
-  gap: 30px;
-}
-
-
-.release p {
-  margin-top: 8px;
-  font-size: 12px;
-}
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
-  gap: 30px;
-}
-h2 {
-  margin-top: 80px;
-  margin-bottom: 25px;
-  font-size: 12px;
-
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: white;
-  color: black;
-  margin: 40px;
-}
+/* Navigation */
 
 nav {
   margin-bottom: 40px;
@@ -89,17 +18,20 @@ nav a {
   font-size: 14px;
 }
 
+/* Home */
+
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 150px);
+  min-height: 100vh;
 }
 
 .featured-image {
+  display: block;
   max-width: 80vw;
   max-height: 75vh;
-  display: block;
+  margin: 0 auto;
 }
 
 .home-title {
@@ -110,6 +42,9 @@ nav a {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+/* About */
+
 .about-image {
   width: 100%;
   max-width: 900px;
@@ -117,33 +52,17 @@ nav a {
   display: block;
   margin-bottom: 40px;
 }
+
+/* Gallery */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
   gap: 30px;
 }
 
+/* Projects */
 
-.release p {
-  margin-top: 8px;
-  font-size: 12px;
-}
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
-  gap: 30px;
-}
-h2 {
-  margin-top: 80px;
-  margin-bottom: 25px;
-  font-size: 12px;
-
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
-}
 .project-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, 160px);
@@ -151,12 +70,10 @@ h2 {
   align-items: start;
 }
 
-/* bloc release stable */
 .release {
   width: 160px;
 }
 
-/* image parfaitement uniforme */
 .release img {
   width: 160px;
   height: 160px;
@@ -164,19 +81,40 @@ h2 {
   display: block;
 }
 
-/* texte propre sous image */
 .release p {
   margin-top: 8px;
   font-size: 12px;
   text-align: left;
 }
 
+/* Titles */
 
-.archive-list {
+h2 {
+  margin-top: 80px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+/* Archive */
+
+.archive-list,
+.archive-gallery {
   display: flex;
   flex-direction: column;
-  gap: 80px;
   align-items: center;
+}
+
+.archive-list {
+  gap: 80px;
+}
+
+.archive-gallery {
+  gap: 60px;
 }
 
 .archive-list img {
@@ -184,17 +122,6 @@ h2 {
   max-width: 100%;
   height: auto;
   display: block;
-}
-.archive-list img {
-  width: 400px !important;
-  height: auto !important;
-}
-
-.archive-gallery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 60px;
 }
 
 .archive-gallery img {
@@ -204,7 +131,13 @@ h2 {
   display: block;
 }
 
+/* Mobile */
+
 @media screen and (max-width: 768px) {
+
+  body {
+    margin: 20px;
+  }
 
   nav {
     display: flex;
@@ -216,46 +149,25 @@ h2 {
     font-size: 14px;
   }
 
-}
-@media screen and (max-width: 768px) {
-
   .home {
-    min-height: calc(100vh - 120px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
     padding: 0;
-  }
-
-  .featured-image {
-    max-width: 90vw;
-    max-height: 60vh;
-    margin: 0 auto;
-    display: block;
-  }
-
-}
-@media screen and (max-width: 768px) {
-
-  body {
-    margin: 20px;
-  }
-
-  .home {
-    min-height: calc(100vh - 140px);
-    justify-content: center;
-    align-items: center;
   }
 
   .featured-image {
     max-width: 100%;
     max-height: 65vh;
-    margin: auto;
+    margin: 0 auto;
   }
 
   .home-title {
     right: 20px;
     bottom: 20px;
+    font-size: 11px;
   }
 
+  .project-row {
+    justify-content: center;
+  }
 }
+
