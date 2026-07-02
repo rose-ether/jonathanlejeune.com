@@ -258,4 +258,14 @@ h2 {
     bottom: 20px;
   }
 
+
+.video-container {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
 }
