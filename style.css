@@ -258,5 +258,18 @@ h2 {
     bottom: 20px;
   }
 
+.archive-video {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
 
+@media screen and (max-width: 768px) {
+  .archive-video {
+    max-width: 100%;
+  }
+}
 
